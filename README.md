@@ -40,7 +40,15 @@ No es un clon de Google Maps. Es una **guía curada a mano**: **18 gimnasios** d
 - ⭐ **Insignia "¡RECOMENDADO!"** para los gimnasios de confianza.
 - 📱 **Un layout que se adapta**: cajón lateral en pantallas anchas, hoja inferior en el celular, con animación de entrada.
 
-> 📸 *Capturas próximamente — la idea es subirlas desde el celular.*
+## Capturas
+
+<p align="center">
+  <img src="docs/captura-app.png" width="360" alt="Pantalla principal de Strikely" />
+</p>
+
+<p align="center">
+  <i>Encabezado, buscador, filtro de disciplinas, el mapa con un marcador por disciplina y la fila de gimnasios cercanos.</i>
+</p>
 
 ---
 
@@ -114,6 +122,8 @@ strikely/
 │  ├─ iconos/                  # íconos de disciplina (160 px)
 │  └─ iconos/mapa/             # versión chica para el mapa (48 px)
 │
+├─ docs/                       # capturas que usa este README
+│
 └─ herramientas/
    ├─ genera-iconos.ps1        # corta la hoja de íconos y rehace los PNG + base64
    └─ hoja-iconos.png          # hoja original con los 7 íconos
@@ -157,7 +167,7 @@ Los 18 gimnasios ya están cargados con nombre, zona, dirección, coordenadas, d
 - [ ] Gimnasios de **Judo** y **Lucha**: hoy las disciplinas existen en el filtro pero no tienen resultados.
 - [ ] **Color propio para Taekwondo**: falta en el mapa de colores, así que sus 5 gimnasios caen en el color por defecto.
 - [ ] **Ícono de app propio**: `assets/icon.png` sigue siendo el genérico de Expo.
-- [ ] Capturas para este README.
+- [ ] Capturas del panel de detalle y de la versión del celular.
 
 **Y cuando el proyecto crezca:**
 
